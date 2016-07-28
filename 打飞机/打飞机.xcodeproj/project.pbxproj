@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9770ABEA1CE7503300D3B12C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9770ABE91CE7503300D3B12C /* main.m */; };
+		9770ABED1CE7503300D3B12C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9770ABEC1CE7503300D3B12C /* AppDelegate.m */; };
+		9770ABF01CE7503300D3B12C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9770ABEF1CE7503300D3B12C /* ViewController.m */; };
+		9770ABF31CE7503300D3B12C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9770ABF11CE7503300D3B12C /* Main.storyboard */; };
+		9770ABF51CE7503300D3B12C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9770ABF41CE7503300D3B12C /* Assets.xcassets */; };
+		9770ABF81CE7503300D3B12C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9770ABF61CE7503300D3B12C /* LaunchScreen.storyboard */; };
+		9770AC041CE750E900D3B12C /* images.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9770AC031CE750E900D3B12C /* images.bundle */; settings = {ASSET_TAGS = (); }; };
+		9770AC071CE754B000D3B12C /* LoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9770AC061CE754B000D3B12C /* LoadingView.m */; settings = {ASSET_TAGS = (); }; };
+		9770AC0A1CE7569D00D3B12C /* TitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9770AC091CE7569D00D3B12C /* TitleView.m */; settings = {ASSET_TAGS = (); }; };
+		9770AC0D1CE758B800D3B12C /* AirPlayGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9770AC0C1CE758B800D3B12C /* AirPlayGameViewController.m */; settings = {ASSET_TAGS = (); }; };
+		9770AC121CE75E7300D3B12C /* ImageResources.m in Sources */ = {isa = PBXBuildFile; fileRef = 9770AC111CE75E7300D3B12C /* ImageResources.m */; settings = {ASSET_TAGS = (); }; };
+		9770AC161CE7607C00D3B12C /* GameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9770AC151CE7607C00D3B12C /* GameModel.m */; settings = {ASSET_TAGS = (); }; };
+		9770AC191CE7625900D3B12C /* BackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9770AC181CE7625900D3B12C /* BackgroundView.m */; settings = {ASSET_TAGS = (); }; };
+		97EB2DBA1CE8039A00D3A317 /* Hero.m in Sources */ = {isa = PBXBuildFile; fileRef = 97EB2DB91CE8039A00D3A317 /* Hero.m */; settings = {ASSET_TAGS = (); }; };
+		97EB2DBD1CE8058500D3A317 /* HeroView.m in Sources */ = {isa = PBXBuildFile; fileRef = 97EB2DBC1CE8058500D3A317 /* HeroView.m */; settings = {ASSET_TAGS = (); }; };
+		97EB2DC01CE8120900D3A317 /* Bullet.m in Sources */ = {isa = PBXBuildFile; fileRef = 97EB2DBF1CE8120900D3A317 /* Bullet.m */; settings = {ASSET_TAGS = (); }; };
+		97EB2DC31CE8160B00D3A317 /* BulletView.m in Sources */ = {isa = PBXBuildFile; fileRef = 97EB2DC21CE8160B00D3A317 /* BulletView.m */; settings = {ASSET_TAGS = (); }; };
+		97EB2DC61CE880D800D3A317 /* Enemy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97EB2DC51CE880D800D3A317 /* Enemy.m */; settings = {ASSET_TAGS = (); }; };
+		97EB2DC91CE882D600D3A317 /* EnemyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 97EB2DC81CE882D600D3A317 /* EnemyView.m */; settings = {ASSET_TAGS = (); }; };
+		97EB2DCC1CE8AA7B00D3A317 /* SoundTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 97EB2DCB1CE8AA7B00D3A317 /* SoundTool.m */; settings = {ASSET_TAGS = (); }; };
+		97EB2DCE1CE8AB6100D3A317 /* music.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 97EB2DCD1CE8AB6100D3A317 /* music.bundle */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9770ABE51CE7503300D3B12C /* 打飞机.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "打飞机.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9770ABE91CE7503300D3B12C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9770ABEB1CE7503300D3B12C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9770ABEC1CE7503300D3B12C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9770ABEE1CE7503300D3B12C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9770ABEF1CE7503300D3B12C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9770ABF21CE7503300D3B12C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9770ABF41CE7503300D3B12C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9770ABF71CE7503300D3B12C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9770ABF91CE7503300D3B12C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9770AC031CE750E900D3B12C /* images.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = images.bundle; path = AirPlayGame/images.bundle; sourceTree = "<group>"; };
+		9770AC051CE754B000D3B12C /* LoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingView.h; sourceTree = "<group>"; };
+		9770AC061CE754B000D3B12C /* LoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingView.m; sourceTree = "<group>"; };
+		9770AC081CE7569D00D3B12C /* TitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleView.h; sourceTree = "<group>"; };
+		9770AC091CE7569D00D3B12C /* TitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleView.m; sourceTree = "<group>"; };
+		9770AC0B1CE758B800D3B12C /* AirPlayGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AirPlayGameViewController.h; sourceTree = "<group>"; };
+		9770AC0C1CE758B800D3B12C /* AirPlayGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AirPlayGameViewController.m; sourceTree = "<group>"; };
+		9770AC101CE75E7300D3B12C /* ImageResources.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageResources.h; sourceTree = "<group>"; };
+		9770AC111CE75E7300D3B12C /* ImageResources.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageResources.m; sourceTree = "<group>"; };
+		9770AC141CE7607C00D3B12C /* GameModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameModel.h; sourceTree = "<group>"; };
+		9770AC151CE7607C00D3B12C /* GameModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameModel.m; sourceTree = "<group>"; };
+		9770AC171CE7625900D3B12C /* BackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundView.h; sourceTree = "<group>"; };
+		9770AC181CE7625900D3B12C /* BackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundView.m; sourceTree = "<group>"; };
+		97EB2DB81CE8039A00D3A317 /* Hero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hero.h; sourceTree = "<group>"; };
+		97EB2DB91CE8039A00D3A317 /* Hero.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hero.m; sourceTree = "<group>"; };
+		97EB2DBB1CE8058500D3A317 /* HeroView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeroView.h; sourceTree = "<group>"; };
+		97EB2DBC1CE8058500D3A317 /* HeroView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeroView.m; sourceTree = "<group>"; };
+		97EB2DBE1CE8120900D3A317 /* Bullet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bullet.h; sourceTree = "<group>"; };
+		97EB2DBF1CE8120900D3A317 /* Bullet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bullet.m; sourceTree = "<group>"; };
+		97EB2DC11CE8160B00D3A317 /* BulletView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BulletView.h; sourceTree = "<group>"; };
+		97EB2DC21CE8160B00D3A317 /* BulletView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BulletView.m; sourceTree = "<group>"; };
+		97EB2DC41CE880D800D3A317 /* Enemy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Enemy.h; sourceTree = "<group>"; };
+		97EB2DC51CE880D800D3A317 /* Enemy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Enemy.m; sourceTree = "<group>"; };
+		97EB2DC71CE882D600D3A317 /* EnemyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnemyView.h; sourceTree = "<group>"; };
+		97EB2DC81CE882D600D3A317 /* EnemyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnemyView.m; sourceTree = "<group>"; };
+		97EB2DCA1CE8AA7B00D3A317 /* SoundTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundTool.h; sourceTree = "<group>"; };
+		97EB2DCB1CE8AA7B00D3A317 /* SoundTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundTool.m; sourceTree = "<group>"; };
+		97EB2DCD1CE8AB6100D3A317 /* music.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = music.bundle; path = AirPlayGame/music.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9770ABE21CE7503300D3B12C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9770ABDC1CE7503300D3B12C = {
+			isa = PBXGroup;
+			children = (
+				9770ABE71CE7503300D3B12C /* 打飞机 */,
+				9770ABE61CE7503300D3B12C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9770ABE61CE7503300D3B12C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9770ABE51CE7503300D3B12C /* 打飞机.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9770ABE71CE7503300D3B12C /* 打飞机 */ = {
+			isa = PBXGroup;
+			children = (
+				9770ABFF1CE7505200D3B12C /* AirPlayGame */,
+				9770ABEB1CE7503300D3B12C /* AppDelegate.h */,
+				9770ABEC1CE7503300D3B12C /* AppDelegate.m */,
+				9770ABF11CE7503300D3B12C /* Main.storyboard */,
+				9770ABF41CE7503300D3B12C /* Assets.xcassets */,
+				9770ABF61CE7503300D3B12C /* LaunchScreen.storyboard */,
+				9770ABF91CE7503300D3B12C /* Info.plist */,
+				9770ABE81CE7503300D3B12C /* Supporting Files */,
+			);
+			path = "打飞机";
+			sourceTree = "<group>";
+		};
+		9770ABE81CE7503300D3B12C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9770ABE91CE7503300D3B12C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9770ABFF1CE7505200D3B12C /* AirPlayGame */ = {
+			isa = PBXGroup;
+			children = (
+				97EB2DCD1CE8AB6100D3A317 /* music.bundle */,
+				9770AC031CE750E900D3B12C /* images.bundle */,
+				9770AC131CE75E8A00D3B12C /* models */,
+				9770AC0E1CE759EC00D3B12C /* controllers */,
+				9770AC0F1CE759F800D3B12C /* views */,
+			);
+			name = AirPlayGame;
+			sourceTree = "<group>";
+		};
+		9770AC0E1CE759EC00D3B12C /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9770ABEE1CE7503300D3B12C /* ViewController.h */,
+				9770ABEF1CE7503300D3B12C /* ViewController.m */,
+				9770AC0B1CE758B800D3B12C /* AirPlayGameViewController.h */,
+				9770AC0C1CE758B800D3B12C /* AirPlayGameViewController.m */,
+			);
+			name = controllers;
+			sourceTree = "<group>";
+		};
+		9770AC0F1CE759F800D3B12C /* views */ = {
+			isa = PBXGroup;
+			children = (
+				9770AC051CE754B000D3B12C /* LoadingView.h */,
+				9770AC061CE754B000D3B12C /* LoadingView.m */,
+				9770AC081CE7569D00D3B12C /* TitleView.h */,
+				9770AC091CE7569D00D3B12C /* TitleView.m */,
+				9770AC171CE7625900D3B12C /* BackgroundView.h */,
+				9770AC181CE7625900D3B12C /* BackgroundView.m */,
+				97EB2DBB1CE8058500D3A317 /* HeroView.h */,
+				97EB2DBC1CE8058500D3A317 /* HeroView.m */,
+				97EB2DC11CE8160B00D3A317 /* BulletView.h */,
+				97EB2DC21CE8160B00D3A317 /* BulletView.m */,
+				97EB2DC71CE882D600D3A317 /* EnemyView.h */,
+				97EB2DC81CE882D600D3A317 /* EnemyView.m */,
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
+		9770AC131CE75E8A00D3B12C /* models */ = {
+			isa = PBXGroup;
+			children = (
+				9770AC101CE75E7300D3B12C /* ImageResources.h */,
+				9770AC111CE75E7300D3B12C /* ImageResources.m */,
+				9770AC141CE7607C00D3B12C /* GameModel.h */,
+				9770AC151CE7607C00D3B12C /* GameModel.m */,
+				97EB2DB81CE8039A00D3A317 /* Hero.h */,
+				97EB2DB91CE8039A00D3A317 /* Hero.m */,
+				97EB2DBE1CE8120900D3A317 /* Bullet.h */,
+				97EB2DBF1CE8120900D3A317 /* Bullet.m */,
+				97EB2DC41CE880D800D3A317 /* Enemy.h */,
+				97EB2DC51CE880D800D3A317 /* Enemy.m */,
+				97EB2DCA1CE8AA7B00D3A317 /* SoundTool.h */,
+				97EB2DCB1CE8AA7B00D3A317 /* SoundTool.m */,
+			);
+			name = models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9770ABE41CE7503300D3B12C /* 打飞机 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9770ABFC1CE7503300D3B12C /* Build configuration list for PBXNativeTarget "打飞机" */;
+			buildPhases = (
+				9770ABE11CE7503300D3B12C /* Sources */,
+				9770ABE21CE7503300D3B12C /* Frameworks */,
+				9770ABE31CE7503300D3B12C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "打飞机";
+			productName = "打飞机";
+			productReference = 9770ABE51CE7503300D3B12C /* 打飞机.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9770ABDD1CE7503300D3B12C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = anne;
+				TargetAttributes = {
+					9770ABE41CE7503300D3B12C = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = ZL72B79ETG;
+					};
+				};
+			};
+			buildConfigurationList = 9770ABE01CE7503300D3B12C /* Build configuration list for PBXProject "打飞机" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9770ABDC1CE7503300D3B12C;
+			productRefGroup = 9770ABE61CE7503300D3B12C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9770ABE41CE7503300D3B12C /* 打飞机 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9770ABE31CE7503300D3B12C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97EB2DCE1CE8AB6100D3A317 /* music.bundle in Resources */,
+				9770ABF81CE7503300D3B12C /* LaunchScreen.storyboard in Resources */,
+				9770ABF51CE7503300D3B12C /* Assets.xcassets in Resources */,
+				9770ABF31CE7503300D3B12C /* Main.storyboard in Resources */,
+				9770AC041CE750E900D3B12C /* images.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9770ABE11CE7503300D3B12C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9770ABF01CE7503300D3B12C /* ViewController.m in Sources */,
+				97EB2DC31CE8160B00D3A317 /* BulletView.m in Sources */,
+				9770AC161CE7607C00D3B12C /* GameModel.m in Sources */,
+				9770AC071CE754B000D3B12C /* LoadingView.m in Sources */,
+				97EB2DC61CE880D800D3A317 /* Enemy.m in Sources */,
+				9770AC0A1CE7569D00D3B12C /* TitleView.m in Sources */,
+				9770AC121CE75E7300D3B12C /* ImageResources.m in Sources */,
+				97EB2DBA1CE8039A00D3A317 /* Hero.m in Sources */,
+				97EB2DC91CE882D600D3A317 /* EnemyView.m in Sources */,
+				9770AC191CE7625900D3B12C /* BackgroundView.m in Sources */,
+				97EB2DBD1CE8058500D3A317 /* HeroView.m in Sources */,
+				9770ABED1CE7503300D3B12C /* AppDelegate.m in Sources */,
+				9770ABEA1CE7503300D3B12C /* main.m in Sources */,
+				97EB2DCC1CE8AA7B00D3A317 /* SoundTool.m in Sources */,
+				9770AC0D1CE758B800D3B12C /* AirPlayGameViewController.m in Sources */,
+				97EB2DC01CE8120900D3A317 /* Bullet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9770ABF11CE7503300D3B12C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9770ABF21CE7503300D3B12C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9770ABF61CE7503300D3B12C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9770ABF71CE7503300D3B12C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9770ABFA1CE7503300D3B12C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9770ABFB1CE7503300D3B12C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9770ABFD1CE7503300D3B12C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "打飞机/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sa615346-mail.ustc.deu.cn.---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9770ABFE1CE7503300D3B12C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "打飞机/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sa615346-mail.ustc.deu.cn.---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9770ABE01CE7503300D3B12C /* Build configuration list for PBXProject "打飞机" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9770ABFA1CE7503300D3B12C /* Debug */,
+				9770ABFB1CE7503300D3B12C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9770ABFC1CE7503300D3B12C /* Build configuration list for PBXNativeTarget "打飞机" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9770ABFD1CE7503300D3B12C /* Debug */,
+				9770ABFE1CE7503300D3B12C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9770ABDD1CE7503300D3B12C /* Project object */;
+}
